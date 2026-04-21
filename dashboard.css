@@ -1,0 +1,82 @@
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background: linear-gradient(to bottom, #2c3e50, #4ca1af);
+  color: white;
+  padding: 20px;
+}
+
+.add-btn {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  padding: 30px;
+  background: #f4f7fb;
+}
+
+/* TOP ROW FIX */
+.top-row {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* CARDS */
+.card-box {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 150px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* CHART */
+.chart-box {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* SEARCH */
+.search-box {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* TABLE */
+.table-custom {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.table-custom th {
+  padding: 12px;
+  background: #2c3e50;
+  color: white;
+}
+
+.table-custom td {
+  padding: 14px;
+  text-align: center;
+}
+
+.high { color: red; font-weight: bold; }
+.medium { color: orange; font-weight: bold; }
+.low { color: green; font-weight: bold; }

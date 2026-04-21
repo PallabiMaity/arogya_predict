@@ -1,0 +1,70 @@
+.patient-container {
+  height: 100vh;
+  background: linear-gradient(to right, #eef2f3, #dfe9f3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+/* Login */
+.login-box {
+  margin-top: 20px;
+}
+
+.login-box input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-box button {
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Card */
+.patient-card {
+  margin-top: 30px;
+  width: 320px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+/* Risk */
+.risk {
+  margin: 15px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.high { color: red; }
+.medium { color: orange; }
+.low { color: green; }
+
+/* Message */
+.message {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Alert button */
+.alert-btn {
+  margin-top: 15px;
+  padding: 10px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Error */
+.error {
+  color: red;
+  margin-top: 20px;
+}

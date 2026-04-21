@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f7fa;
+}
+
+h2, h3 {
+  margin: 0;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.primary {
+  background: #4CAF50;
+  color: white;
+}
+
+.input {
+  padding: 10px;
+  margin: 8px 0;
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
