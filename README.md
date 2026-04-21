@@ -4,20 +4,20 @@ AarogyaPredict is an AI-powered healthcare monitoring system that predicts patie
 
 ---
 
-## 🚀 Features
+##  Features
 
-* 🔍 **Patient Risk Prediction** (Low / Medium / High)
-* 👨‍⚕️ **Doctor Dashboard** – view and manage all patients
-* 🧑‍💻 **Patient Dashboard** – view personal health status
-* 📊 **Dynamic Risk Update** based on discharge date
-* 📝 **Add Patient Records**
-* 🔐 **Doctor Login System**
-* 🔎 **Search Patient by ID**
-* 📈 **Probability-based Risk Classification**
+*  **Patient Risk Prediction** (Low / Medium / High)
+*  **Doctor Dashboard** – view and manage all patients
+*  **Patient Dashboard** – view personal health status
+*  **Dynamic Risk Update** based on discharge date
+*  **Add Patient Records**
+*  **Doctor Login System**
+*  **Search Patient by ID**
+*  **Probability-based Risk Classification**
 
 ---
 
-## 🧠 Working Principle
+##  Working Principle
 
 1. Doctor enters patient details
 2. Machine Learning model predicts probability
@@ -31,7 +31,7 @@ AarogyaPredict is an AI-powered healthcare monitoring system that predicts patie
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### 🔹 Frontend
 
@@ -52,7 +52,7 @@ AarogyaPredict is an AI-powered healthcare monitoring system that predicts patie
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 arogya-predict/
@@ -71,9 +71,9 @@ arogya-predict/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
-### 1️⃣ Clone Repository
+### 1️ Clone Repository
 
 ```
 git clone https://github.com/YOUR_USERNAME/arogya-predict.git
@@ -82,7 +82,7 @@ cd arogya-predict
 
 ---
 
-### 2️⃣ Run Backend
+### 2️ Run Backend
 
 ```
 cd backend
@@ -92,7 +92,7 @@ python -m uvicorn app:app --reload
 
 ---
 
-### 3️⃣ Run Frontend
+### 3️ Run Frontend
 
 ```
 cd frontend
@@ -123,19 +123,16 @@ python train_model.py
 
 ---
 
-## 🎯 Future Enhancements
+##  Future Enhancements
 
-* 📩 SMS Notification System
-* 📞 Emergency Alerts
-* 📅 Appointment Booking
-* 📊 Advanced Analytics Dashboard
+*  SMS Notification System
+*  Emergency Alerts
+*  Appointment Booking
+*  Advanced Analytics Dashboard
 
 ---
 
-## 👩‍💻 Author
 
-**Pallabi Maity**
-Electronics & Communication Engineering Student
 
 ---
 
